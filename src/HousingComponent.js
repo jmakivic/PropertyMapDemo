@@ -1,36 +1,32 @@
+/*This code defines each housing component, or listing viewed under the map. It defines a set of buttons to set the state of that listing
+which will then be reflected on the map*/
+
 import * as React from 'react';
 import './App.css';
 import {Housing} from './contexts/Housing';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faEye, faEyeSlash} from '@fortawesome/free-solid-svg-icons';
 
-//DO favorites, etc here. How about the other things associated with this component
+
 export function HousingComponent(props){
 
-      //make it specific to the item
   const [favorite, setFavorite] = React.useState(Housing[props.id].info.favorite);
   const [visited, setVisited] = React.useState(Housing[props.id].info.viewed);
   const [dismiss, setDismissed] = React.useState(Housing[props.id].info.dismiss);
 
-  /*These should determine the color of the marker?*/
+ 
   const chooseFavorite =()=>{
-    console.log(props.title + favorite);
     Housing[props.id].info.favorite = !favorite;
     setFavorite(!favorite);
-    
-    
 
-    console.log("Housing fav: "+Housing[props.id].info.favorite);
   }
 
   const markVisited =()=>{
-    console.log(props.title + visited);
     Housing[props.id].info.viewed = !visited;
     setVisited(!visited);
   }
 
   const markDismissed =()=>{
-    console.log(props.title + dismiss);
     Housing[props.id].info.dismiss = !dismiss;
     setDismissed(!dismiss);
   }

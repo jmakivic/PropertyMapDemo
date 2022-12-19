@@ -1,153 +1,152 @@
 
 @font-face {
-  font-family: "Banda Regular";
-  src: url("./fonts/banda-regular.otf");
-}
-
-body{
-  font-family: "Banda Regular";
-  color: #808080;
- 
-}
-
-h1{
-  /*color:#40586D;*/
-  color: #808080;
-}
-
-.content{
-  display: block;
-  margin: 0 auto;
-  max-width:1000px;
-}
-
-.map-section{
-  display:flex;
-  flex-direction: row;
-}
-
-.map-nav{
-  width:30%;
-  border: 1px solid grey;
-  padding: 20px;
-}
-
-.textarea {
-  border: 1px solid #808080;
-  margin:6px 0px;
-  border-radius: 4px;
-  padding:6px;
-  width:200px;
-  font-family: "Banda Regular";
-}
-
-.distance {
-  display:flex;
-  justify-content: row;
-}
-
-.distance div{
-  padding:0px 24px;
-
-  border: 1px solid #808080;
-  margin-right:4px;
-  border-radius:8px;
-}
-
-.listing{
-  border: 1px solid grey;
-  padding: 6px;
-  margin:10px 0;
-  display:flex;
-  justify-content: row;
-}
-
-.imagearea{
-  height:185px;
-  width:185px;
-}
-
-.listings{
-  margin-top:12px;
- 
-}
-
-.map-area{
-width:70%;
-border: 1px solid grey;
-background-image: url("./images/abstract_map.webp");
-position: relative;
-}
-
-.housing{
-  height:185px;
-  max-width:100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display:flex;
-  justify-content: row;
+    font-family: "Banda Regular";
+    src: url("./fonts/banda-regular.otf");
+  }
   
-}
-
-.listingManagement{
-  float: right;
-  display: flex;
-  justify-content: row;
-}
-
-.listingManagement button{
-  padding:12px; 
-  margin:4px;
-  cursor: pointer;
-  background: #fff;
-  border: 1px solid #006080;
-  border-radius: 4px;
-  color:#006080;
-
-}
-
-.listingImage{
-  height:180px;
-  width:20%;
-  display:block;
-  background-color: #808080;
-}
-
-.listingContent{
-  width:78%;
-  margin-left:12px;
+  body{
+    font-family: "Banda Regular";
+    color: #808080;
+   
+  }
   
-}
-
-.marker{
-  /*width:10px;
-  height:10px;*/
-  display: flex;
-  justify-content: row;
-}
-
-.mapToggle button{
-  font-family:"Banda Regular";
-  background-color:#fff;
-  padding:6px;
-  margin:4px;
-  border: 1px solid #0086b3;
-  border-radius:4px;
-  cursor: pointer;
-  color: #0086b3;
-}
-
-.selected {
-  background-color: #ccf2ff !important;
-}
-
-.navSection{
-  background: #fff;
-  border: 1px solid #808080;
-  border-radius: 4px;
-  margin: 8px 0;
-  padding: 6px;
-
-}
-
-
+  h1{
+    /*color:#40586D;*/
+    color: #808080;
+  }
+  
+  .content{
+    display: block;
+    margin: 0 auto;
+    max-width:1000px;
+  }
+  
+  .map-section{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .map-nav{
+    width:30%;
+    border: 1px solid grey;
+    padding: 20px;
+  }
+  
+  .textarea {
+    border: 1px solid #808080;
+    margin:6px 0px;
+    border-radius: 4px;
+    padding:6px;
+    width:200px;
+    font-family: "Banda Regular";
+  }
+  
+  .distance {
+    display:flex;
+    justify-content: row;
+  }
+  
+  .distance div{
+    padding:0px 24px;
+  
+    border: 1px solid #808080;
+    margin-right:4px;
+    border-radius:8px;
+  }
+  
+  .listing{
+    border: 1px solid grey;
+    padding: 6px;
+    margin:10px 0;
+    display:flex;
+    justify-content: row;
+  }
+  
+  .imagearea{
+    height:185px;
+    width:185px;
+  }
+  
+  .listings{
+    margin-top:12px;
+   
+  }
+  
+  .map-area{
+  width:70%;
+  border: 1px solid grey;
+  background-image: url("./images/abstract_map.webp");
+  position: relative;
+  }
+  
+  .housing{
+    height:185px;
+    max-width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:flex;
+    justify-content: row;
+    
+  }
+  
+  .listingManagement{
+    float: right;
+    display: flex;
+    justify-content: row;
+  }
+  
+  .listingManagement button{
+    padding:12px; 
+    margin:4px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #006080;
+    border-radius: 4px;
+    color:#006080;
+  
+  }
+  
+  .listingImage{
+    height:180px;
+    width:20%;
+    display:block;
+    background-color: #808080;
+  }
+  
+  .listingContent{
+    width:78%;
+    margin-left:12px;
+    
+  }
+  
+  .marker{
+    /*width:10px;
+    height:10px;*/
+    display: flex;
+    justify-content: row;
+  }
+  
+  .mapToggle button{
+    font-family:"Banda Regular";
+    background-color:#fff;
+    padding:6px;
+    margin:4px;
+    border: 1px solid #0086b3;
+    border-radius:4px;
+    cursor: pointer;
+    color: #0086b3;
+  }
+  
+  .selected {
+    background-color: #ccf2ff !important;
+  }
+  
+  .navSection{
+    background: #fff;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 6px;
+  
+  }
+  

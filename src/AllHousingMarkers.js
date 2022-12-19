@@ -1,3 +1,4 @@
+/*This code determines what type of housing markers there are and where they belong on the map according to the data in the Housing object*/
 import * as React from 'react';
 import './App.css';
 import {Housing} from './contexts/Housing';

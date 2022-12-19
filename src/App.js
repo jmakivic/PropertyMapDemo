@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faThumbTack , faCircleChevronDown, faSliders, faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
 
 function App() {
-
+    //populate each HousingComponent with information from the Housing object 
     const listItems = Housing.map((number) =>
       <HousingComponent id={number.id} title={number.info.title} price={number.info.price} description={number.info.description} />
     );
