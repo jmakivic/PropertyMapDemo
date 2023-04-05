@@ -4,7 +4,7 @@ This project is an example of how the OpenRent map view of a region could be red
 
 This interface allows users to favorite each item, mark it as a viewed, or "dismiss" it. Users can toggle showing favorited, viewed, and dismissed items on the map. 
 
-View a demo [here](https://secret-mountain-95480.herokuapp.com/)
+View a demo [here](https://rocky-inlet-86121.herokuapp.com/)
 
 ## How to interact with the demo
 
